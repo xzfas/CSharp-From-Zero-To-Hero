@@ -17,16 +17,16 @@ namespace BootCamp.Chapter
             //Console.WriteLine(age);
             Console.WriteLine("Hello please write down your weight (kg):");
             double weight = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(weight);
+            //Console.WriteLine(weight);
             Console.WriteLine("Hello please write down your height (cm):");
             double height = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(height);
+            //Console.WriteLine(height);
             double heightCalc = height / 100;
             double heightSquare = heightCalc * heightCalc;
-            Console.WriteLine(heightSquare);
+            //Console.WriteLine(heightSquare);
             double bmi = weight / heightSquare;
             bmi = Math.Round(bmi, 1);
-            Console.WriteLine(bmi);
+            Console.WriteLine("Your bmi is: " + bmi);
         }
     }
 }
