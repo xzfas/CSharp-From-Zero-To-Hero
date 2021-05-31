@@ -27,6 +27,7 @@ namespace BootCamp.Chapter
             double bmi = weight / heightSquare;
             bmi = Math.Round(bmi, 1);
             Console.WriteLine("Your bmi is: " + bmi);
+            sdadadwa
         }
     }
 }
